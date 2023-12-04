@@ -1,0 +1,3 @@
+com\senac\meditech\MediTechApplication.class
+com\senac\meditech\ServletInitializer.class
+com\senac\meditech\controller\RouterController.class
