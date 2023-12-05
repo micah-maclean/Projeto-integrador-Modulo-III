@@ -5,7 +5,6 @@
 package com.senac.meditech.controller.model;
 
 import java.time.LocalDate;
-import java.time.LocalTime;
 import java.util.Date;
 import org.springframework.format.annotation.DateTimeFormat;
 
