@@ -52,7 +52,7 @@
                 </div>
                 <div th:if="${tipo.equals('paciente')}">
                   <label for="numeroSUS" class="form-label">Número do cartão do sus</label>
-                  <input type="text" class="form-control" id="numeroSUS" th:field="${entity.numeroSUS}">
+                  <input type="text" class="form-control" id="numeroSus" th:field="${entity.numeroSus}">
                 </div>
             </div>
 
@@ -82,7 +82,7 @@
               </div>
             </div>
 
-            <button type="submit" class="btn btn-primary" th:if="${!atualizar}">Cadastrar</button>              
+            <button type="submit" class="btn btn-primary mb-4" th:if="${!atualizar}">Cadastrar</button>              
             <!-- <button type="submit" class="btn btn-primary" th:if="${atualizar}">Atualizar</button>               -->
           </form>
         </div>
